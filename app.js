@@ -34,8 +34,8 @@ const renderCountryInfo = country => {
     const countryDiv = document.getElementById('countryDetail');
     countryDiv.innerHTML = `
         <h1>${country.name}</h1>
-        <p>Population: ${country.population}</p>
-        <p>Area: ${country.area}</p>
+        <p>Population: ${country.population} People.</p>
+        <p>Area: ${country.area} Square kilometres.</p>
         
         <img src="${country.flag}">
     `
